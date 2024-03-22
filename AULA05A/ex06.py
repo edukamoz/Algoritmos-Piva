@@ -4,9 +4,6 @@ if numero >= 1000:
     print('O valor informado é maior ou igual a 1000')
     quit()
 
-centena = int
-dezena = int
-unidade = int
 textoC = 'centena'
 textoD = 'dezena'
 textoU = 'unidade'

@@ -3,7 +3,6 @@ nota2 = float(input('Digite a segunda nota: '))
 
 media = (nota1 + nota2) / 2
 nota = ''
-aprovacao = ''
 
 if media < 4:
     nota = 'E'
