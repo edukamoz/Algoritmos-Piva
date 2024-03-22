@@ -7,19 +7,16 @@ aprovacao = ''
 
 if media < 4:
     nota = 'E'
-    aprovacao = 'REPROVADO'
 elif media < 6:
     nota = 'D'
-    aprovacao = 'REPROVADO'
 elif media < 7.5:
     nota = 'C'
-    aprovacao = 'APROVADO'
 elif media < 9:
     nota = 'B'
-    aprovacao = 'APROVADO'
 else:
     nota = 'A'
-    aprovacao = 'APROVADO'
+
+aprovacao = 'APROVADO' if media >= 6 else 'REPROVADO'
 
 print(f'''
 Primeira nota: {nota1}
