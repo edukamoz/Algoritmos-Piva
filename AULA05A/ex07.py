@@ -21,4 +21,4 @@ match combustivel.lower():
             desconto = valor_bruto * 0.06
             valor_total = valor_bruto - desconto
 
-print(valor_total)
+print(f'Valor total: R$ {valor_total}')
