@@ -18,7 +18,6 @@ if numero / 100 >= 1:
     if dezena > 1:
         textoD = 'dezenas'
     unidade = resto // 1
-    resto = numero % 1
     if unidade > 1:
         textoU = 'unidades'
     print(f'{numero} = {centena} {textoC}, {dezena} {textoD} e {unidade} {textoU}')
@@ -28,13 +27,11 @@ elif numero / 10 >= 1:
     if dezena > 1:
         textoD = 'dezenas'
     unidade = resto // 1
-    resto = numero % 1
     if unidade > 1:
         textoU = 'unidades'
     print(f'{numero} = {dezena} {textoD} e {unidade} {textoU}')
 elif numero / 1 >= 1:
     unidade = numero // 1
-    resto = numero % 1
     if unidade > 1:
         textoU = 'unidades'
     print(f'{numero} = {unidade} {textoU}')
