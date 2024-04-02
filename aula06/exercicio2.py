@@ -1,7 +1,7 @@
 valor_compra = float(input('Digite o valor da compra: '))
 valor_final = float
 
-if valor_compra < 1000.99:
+if valor_compra < 1001:
     valor_final = valor_compra * 0.9
 elif valor_compra < 5000:
     valor_final = valor_compra * 0.8
